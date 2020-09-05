@@ -1,21 +1,26 @@
 function addOrange() {
     addItemToCart("Orange", 1.60)
+    console.log("Orange", 1.60)
 }
 
 function addMango() {
     addItemToCart("Mango", 2.30)
+    console.log("Mango", 2.30)
 }
 
 function addStrawberry() {
     addItemToCart("Strawberry", 1.40)
+    console.log("Strawberry", 1.40)
 }
 
 function addPassionfruit() {
-    addItemToCart("Passionfruit")
+    addItemToCart("Passionfruit", 3.40)
+    console.log("Passionfruit", 3.40)
 }
 
 function addPeach() {
-    addItemToCart("Peach")
+    addItemToCart("Peach", 1.70)
+    console.log("Peach", 1.70)
 }
 
 function addItemToCart(Item, Price) {
