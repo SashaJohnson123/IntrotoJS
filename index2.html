@@ -1,0 +1,38 @@
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>  My Shopping List  </h1>
+        </div>
+        <div id="myDIV" class="header">
+            <h2>My To Do List</h2>
+            <input type="text" id="myInput" placeholder="Title...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+            </div>
+
+            <ul id="List">
+                <li class>Orange</li><button onclick="addItemInCart">Add to Cart</button>
+                <li class>Mango</li><button onclick="addItemInCart">Add to Cart</button>
+                <li class>Strawberry</li><button onclick="addItemInCart">Add to Cart</button>
+                <li class>Passionfruit</li><button onclick="addItemInCart">Add to Cart</button>
+                </ul>
+            <div class="cart">
+                    <h2 class="section-header">CART</h2>
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">ITEM</span>
+                        <span class="cart-price cart-header cart-column">PRICE</span>
+                        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                    </div>
+                    <div class="cart-items" id="itemsList">
+
+                    </div>
+                    <div class="cart-total" id="cartTotal">
+                        <strong class="cart-total-title">Total</strong>
+                        <span class="cart-total-price">$0</span>
+                    </div>
+                    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
