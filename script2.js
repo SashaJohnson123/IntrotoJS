@@ -18,7 +18,6 @@ function addPeach() {
     addItemToCart("Peach")
 }
 
-
 function addItemToCart(Item, Price) {
     let cart = document.getElementById("ShoppingCart")
     var node = document.createElement("LI");                 // Create a <li> node
