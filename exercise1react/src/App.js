@@ -12,7 +12,7 @@ function App() {
 
   // templates
   return (
-    <div>
+    <div class="App">
       <h2>Counter</h2>
       <button onClick={add}>Add</button>
       <span> {count} </span>
