@@ -1,4 +1,3 @@
-
 function plusOne() {
     console.log("Hello!")
     let number = document.getElementById("MyNumber").innerHTML;
@@ -7,6 +6,8 @@ function plusOne() {
     document.getElementById("MyNumber").innerHTML = add
 }
 
+
+
 function minusOne() {
     console.log("Hello!")
     let number = document.getElementById("MyNumber").innerHTML;
@@ -14,3 +15,4 @@ function minusOne() {
     let take = parseInt(number) - 1;
     document.getElementById("MyNumber").innerHTML = take
 }
+
